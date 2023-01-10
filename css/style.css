@@ -1,0 +1,30 @@
+body div {
+    text-align: center;
+}
+
+.button {
+    margin-bottom: 30px;
+    font-size: large;
+}
+
+#rotator_{
+    margin: 30px;
+    padding: 30px;
+}
+
+header {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+}
+
+div p {
+    text-align: center;
+    border: 2rem;
+    padding: 1rem;
+}
+
+div h2 {
+    padding: 1rem;
+}
