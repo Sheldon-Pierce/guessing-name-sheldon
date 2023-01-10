@@ -26,7 +26,8 @@ $('#q1').click(function(){
     let answer2 = prompt('Is my name Sheldon?');
     answer = answer2;
   }
-  alert("That's correct!")
+  //   console.log("You are correct!")
+  alert('That\'s correct!');
 });
 
 $('#q2').click(function(){
@@ -36,7 +37,8 @@ $('#q2').click(function(){
     let answer2 = prompt('Did I play baseball in highschool?');
     answer = answer2;
   }
-  alert("That's correct!")
+  //   console.log("You are correct!")
+  alert('That\'s correct!');
 });
 
 $('#q3').click(function(){
@@ -46,7 +48,8 @@ $('#q3').click(function(){
     let answer2 = prompt('Did I go to college in Montana?');
     answer = answer2;
   }
-  alert("That's correct!")
+  //   console.log("You are correct!")
+  alert('That\'s correct!');
 });
 
 $('#q4').click(function(){
@@ -56,7 +59,8 @@ $('#q4').click(function(){
     let answer2 = prompt('Was I previously a Mechanical Engineer?');
     answer = answer2;
   }
-  alert("That's correct!")
+  //   console.log("You are correct!")
+  alert('That\'s correct!');
 });
 
 $('#q5').click(function(){
@@ -66,6 +70,7 @@ $('#q5').click(function(){
     let answer2 = prompt('Is my current goal to become a Software Developer?');
     answer = answer2;
   }
-  alert("That's correct!")
+  //   console.log("You are correct!")
+  alert('That\'s correct!');
 });
 
