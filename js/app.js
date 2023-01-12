@@ -8,15 +8,10 @@ let question5answer = 'Yes';
 let question6answer = 26;
 let listedAnswers = ['bowling ball', ' bubbles ', 'rocks ', ' feathers ', ' animals '];
 let question7answer = [listedAnswers[1], listedAnswers[3],];
-
-
-
 let userName= prompt('Hello, what is your name?');
 let totalAttempts = 0;
 let correctAnswers = 0;
-let totalTries = correctAnswers + totalAttempts;
-let quizPercent = (correctAnswers / totalAttempts);
-console.log(quizPercent);
+let totalTries = correctAnswers += totalAttempts;
 
 setTimeout(greeting, 1000);
 
@@ -127,11 +122,12 @@ $('#q6').click(function(){
       break;
     }
   }
-});
-
-
-
-
+  // if(answer == question6answer){
+  //   correctAnswers++;
+  //   alert('That\'s correct!');
+  //   $('#percent').text(`Correct Answers: ${correctAnswers}`);
+  }
+);
 
 
 $('#q7').click(function(){

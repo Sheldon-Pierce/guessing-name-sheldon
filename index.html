@@ -11,42 +11,72 @@
 </head>
 <body>
     <header>
-        <h1>The life of Sheldon</h1>
+
     </header>
-    <body>
-        <div>
+    <body >
+        <div class="Hero">
+            <div class="Intro">
+            <h1>The Life of Sheldon</h1>
             <p>I am a native of Chicago. I have spent most of my life there until moving away for college. While in Chicago, I spent a majority of my time participating in sports, more specifically track!
                 I moved to Missouri for college where I got a bachelors of science in Geological Sciences. After graduating, I worked for a bit as a Hydrologist in Springfield, Illinois before moving to Seattle
                 for a job offer. My immediate and long term current goal is to become a successful Software Developer. 
             </p>
-            <p> Work Experience
-                <ul class="bullets">
-                    <li>Hydrologist</li>
-                    <li>Environmental Protection Geologist</li>
-                </ul>
-            </p>
-            <p> Education Summary
-                <ul class="bullets">
-                    <li>Code Fellows</li>
-                    <li>University of Missouri</li>
-                    <li>Saint Ignatius College Prep</li>
-                </ul>
-            </p>
+            </div>
+            <div class="overlay">
+                <div class="work">
+                <p> Work Experience
+                    <ul class="bullets">
+                        <li>Hydrologist</li>
+                        <li>Environmental Protection Geologist</li>
+                    </ul>
+                </p>
+                </div>
+                <div class="empty">
+                    <label for="cars">Top 10 Cars
+                    <select name="Games" id="cars">
+                    <option value="volvo">Click Me!</option>
+                    <option value="volvo">1. Ferrari 296 GTB</option>
+                    <option value="saab">2. Bugatti Chiron</option>
+                    <option value="mercedes">3. Porsche Singer DLS</option>
+                    <option value="audi">4. Toyota GR Yaris</option>
+                    <option value="audi">5. Audi Quattro</option>
+                    <option value="audi">6. Mercedes-Benz Patent Motorwagen</option>
+                    <option value="audi">7. Porsche 918 Spyder</option>
+                    <option value="audi">8. Ferrari 250 SWB GTO</option>
+                    <option value="audi">9. Eagle Lightweight GT</option>
+                    <option value="audi">10. Citroen DS</option>
+                    </select>
+                </div>
+                <div class="education">
+                <p> Education Summary
+                    <ul class="bullets">
+                        <li>Code Fellows</li>
+                        <li>University of Missouri</li>
+                        <li>Saint Ignatius College Prep</li>
+                    </ul>
+                </p>
+                </div>
+            </div>
         </div>
-        <div id="rotator">
-            <h2 id="quizTitle">Quiz About Me!</h2>
+        <div class="quiz">
+            <div id="rotator">
+                <h2 id="quizTitle">Quiz About Me!</h2>
+            </div>
+            <div class="questions">
+                <button type="submit" id="q1" class="button">Question 1</button>
+                <button type="submit" id="q2" class="button">Question 2</button>
+                <button type="submit" id="q3" class="button">Question 3</button>
+            </div>
+            <div class="questions">
+                <button type="submit" id="q4" class="button">Question 4</button>
+                <button type="submit" id="q5" class="button">Question 5</button>
+                <button type="submit" id="q6" class="button">Question 6</button><br>
+            </div>
+            <div class="questions">
+                <button type="submit" id="q7" class="button">Question 7</button><br>
+            </div>
         </div>
-        <div>
-            <button type="submit" id="q1" class="button">Question 1</button><br>
-            <button type="submit" id="q2" class="button">Question 2</button><br>
-            <button type="submit" id="q3" class="button">Question 3</button><br>
-            <button type="submit" id="q4" class="button">Question 4</button><br>
-            <button type="submit" id="q5" class="button">Question 5</button><br>
-            <button type="submit" id="q6" class="button">Question 6</button><br>
-            <button type="submit" id="q7" class="button">Question 7</button><br>
-
-        </div>
-        <div>
+        <!-- <div>
             <label for="cars">Top 10 Cars
             <select name="Games" id="cars">
             <option value="volvo">Click Me!</option>
@@ -60,7 +90,7 @@
             <option value="audi">8. Ferrari 250 SWB GTO</option>
             <option value="audi">9. Eagle Lightweight GT</option>
             <option value="audi">10. Citroen DS</option>
-            </select>
+            </select> -->
         </div>
         <div>
             <p id="counter">Wrong Attempts: 0</p>
