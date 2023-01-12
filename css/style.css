@@ -28,3 +28,6 @@ div p {
 div h2 {
     padding: 1rem;
 }
+.bullets {
+    text-decoration: underline;
+}

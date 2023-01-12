@@ -7,3 +7,7 @@ Guessing Game for Lab 2
 A Guessing game about Sheldon. A simple input and output quiz, using 
 
 ![image](img/lab_02.png)
+
+Lab 03 Accessibility
+
+![image](img/Lab_03.png)
