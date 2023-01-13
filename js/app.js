@@ -146,6 +146,7 @@ Which of the listed options would be most ideal?
         alert('That\'s correct!');
         alert(`You got ${correctAnswers} answers correct in ${totalAttempts} tries!`);
         $('#percent').text(`Correct Answers: ${correctAnswers}`);
+        goodbye()
         break;
       }
       else if(listedAnswers[answer - 1] === question7answer[1]){
@@ -155,6 +156,7 @@ Which of the listed options would be most ideal?
         alert('That\'s correct!');
         alert(`You got ${correctAnswers} answers correct in ${totalTries} tries!`);
         $('#percent').text(`Correct Answers: ${correctAnswers}`);
+        goodbye()
         break;
       } else {
         totalAttempts++;

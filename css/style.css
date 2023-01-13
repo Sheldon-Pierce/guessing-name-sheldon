@@ -38,16 +38,16 @@ div h2 {
 }
 
 .quiz {
-    /* background-color: aquamarine; */
+    background-image: linear-gradient(#e52e71, #ff8a00);
     padding-top: 3rem;
 }
 
 .Hero {
-    background-image: url(/img/background.jpg);
+    background-image: url(../img/background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     height: 35rem;
-    color: rgb(149, 241, 149);
+    color: rgb(77, 165, 106);
     margin: -1rem;
     border-top: 0px;
     padding-top: 0px;
