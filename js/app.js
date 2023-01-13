@@ -11,7 +11,7 @@ let question7answer = [listedAnswers[1], listedAnswers[3],];
 let userName= prompt('Hello, what is your name?');
 let totalAttempts = 0;
 let correctAnswers = 0;
-let totalTries = correctAnswers += totalAttempts;
+// create a function for total tries to update automatically
 
 setTimeout(greeting, 1000);
 
@@ -144,7 +144,7 @@ Which of the listed options would be most ideal?
         // console.log(question7answer[0]);
         correctAnswers++;
         alert('That\'s correct!');
-        alert(`You got ${correctAnswers} answers correct in ${totalAttempts} tries!`);
+        alert(`You got ${correctAnswers} answers correct in ${totalTries} tries!`);
         $('#percent').text(`Correct Answers: ${correctAnswers}`);
         goodbye()
         break;
