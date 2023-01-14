@@ -11,7 +11,6 @@ let question7answer = [listedAnswers[1], listedAnswers[3],];
 let userName= prompt('Hello, what is your name?');
 let totalAttempts = 0;
 let correctAnswers = 0;
-// create a function for total tries to update automatically
 
 setTimeout(greeting, 1000);
 
@@ -31,7 +30,6 @@ $('#q1').click(function(){
     $('#counter').text(`Wrong Attempts: ${totalAttempts}`);
     answer = prompt(`Is my name Sheldon? Wrong Attempts: ${totalAttempts}`);
   }
-  //   console.log("You are correct!")
   correctAnswers++;
   alert('That\'s correct!');
   $('#percent').text(`Correct Answers: ${correctAnswers}`);
@@ -45,7 +43,6 @@ $('#q2').click(function(){
     answer = prompt(`Did I play baseball in highschool? Wrong Attempts: ${totalAttempts}`);
     $('#counter').text(`Wrong Attempts: ${totalAttempts}`);
   }
-  //   console.log("You are correct!")
   correctAnswers++;
   alert('That\'s correct!');
   $('#percent').text(`Correct Answers: ${correctAnswers}`);
@@ -59,7 +56,6 @@ $('#q3').click(function(){
     answer = prompt(`Did I go to college in Montana? Wrong Attempts: ${totalAttempts}`);
     $('#counter').text(`Wrong Attempts: ${totalAttempts}`);
   }
-  //   console.log("You are correct!")
   correctAnswers++;
   alert('That\'s correct!');
   $('#percent').text(`Correct Answers: ${correctAnswers}`);
@@ -73,7 +69,6 @@ $('#q4').click(function(){
     answer = prompt(`Was I previously a Mechanical Engineer? Wrong Attempts: ${totalAttempts}`);
     $('#counter').text(`Wrong Attempts: ${totalAttempts}`);
   }
-  //   console.log("You are correct!")
   correctAnswers++;
   alert('That\'s correct!');
   $('#percent').text(`Correct Answers: ${correctAnswers}`);
@@ -87,7 +82,6 @@ $('#q5').click(function(){
     answer = prompt(`Is my current goal to become a Software Developer? Wrong Attempts: ${totalAttempts}`);
     $('#counter').text(`Wrong Attempts: ${totalAttempts}`);
   }
-  //   console.log("You are correct!")
   correctAnswers++;
   alert('That\'s correct!');
   $('#percent').text(`Correct Answers: ${correctAnswers}`);
@@ -122,12 +116,7 @@ $('#q6').click(function(){
       break;
     }
   }
-  // if(answer == question6answer){
-  //   correctAnswers++;
-  //   alert('That\'s correct!');
-  //   $('#percent').text(`Correct Answers: ${correctAnswers}`);
-  }
-);
+});
 
 
 $('#q7').click(function(){
@@ -140,8 +129,6 @@ Which of the listed options would be most ideal?
   while(listedAnswers[answer - 1] !== question7answer[0] || question7answer[1]) {
     for (let count = 5; count > 0; count--) {
       if(listedAnswers[answer - 1] === question7answer[0]){
-        // console.log(listedAnswers[answer - 1]);
-        // console.log(question7answer[0]);
         correctAnswers++;
         alert('That\'s correct!');
         alert(`You got ${correctAnswers} answers correct in ${totalTries} tries!`);
@@ -150,8 +137,6 @@ Which of the listed options would be most ideal?
         break;
       }
       else if(listedAnswers[answer - 1] === question7answer[1]){
-        // console.log(listedAnswers[answer - 1]);
-        // console.log(question7answer[1]);
         correctAnswers++;
         alert('That\'s correct!');
         alert(`You got ${correctAnswers} answers correct in ${totalTries} tries!`);
